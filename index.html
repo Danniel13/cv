@@ -18,6 +18,7 @@
 </head>
 
 <body>
+    <div id="top"></div>
   <!-- Background -->
   <div class="bg">
     <div class="bg__grid"></div>
@@ -26,7 +27,7 @@
   </div>
 
   <!-- Header -->
-  <header class="header" id="top">
+  <!-- <header class="header" id="top"> -->
     <div class="wrap header__inner">
       <a class="brand" href="#top" aria-label="Ir al inicio">
         <span class="brand__dot"></span>
@@ -70,7 +71,7 @@
         <div class="hero__left">
           <div class="pill reveal">
             <span class="pill__dot"></span>
-            SysAdmin Windows/Linux • Automatización TI • Infraestructura & Seguridad
+            SysAdmin • Automatización TI • Infraestructura & Seguridad
           </div>
 
           <h1 class="reveal">
@@ -78,9 +79,8 @@
           </h1>
 
           <p class="hero__sub reveal">
-            Analista de Sistemas con <strong>8+ años</strong> en operación tecnológica: soporte N2/N3,
-            administración de servidores, redes, seguridad perimetral, CRM/telefonía y automatización
-            con scripting e IA aplicada a procesos.
+           Analista de Sistemas con más de <strong>8 años</strong> de experiencia en operación TI,
+           infraestructura Windows/Linux y automatización de procesos. 
           </p>
 
           <div class="hero__meta reveal">
@@ -123,9 +123,9 @@
         <aside class="hero__right reveal">
           <div class="card card--profile">
             <div class="card__top">
-              <div class="avatar" aria-label="Espacio para foto">
-                <span>FOTO</span>
-              </div>
+             <div class="avatar">
+          <img src="./assets/foto.png" alt="Daniel González – Analista de Sistemas" />
+          </div>
               <div class="id">
                 <div class="id__name">Daniel González</div>
                 <div class="id__role">Analista de Sistemas • SysAdmin • Automatización</div>
@@ -189,10 +189,10 @@
           <div class="card reveal">
             <h3>En qué soy fuerte</h3>
             <ul class="list">
-              <li>Operación TI N2/N3: diagnóstico, continuidad y atención a usuarios.</li>
-              <li>Administración Windows/Linux y servicios (AD, DNS, DHCP, File Server).</li>
-              <li>Redes y seguridad perimetral (Fortinet, VPN, control de accesos).</li>
-              <li>Automatización con scripting e IA aplicada a procesos operativos.</li>
+              <li>Operación TI y continuidad de servicios.</li>
+              <li>Administración de infraestructura.</li>
+              <li>Redes y seguridad perimetral.</li>
+              <li>Automatización orientada a eficiencia operativa.</li>
             </ul>
           </div>
 
@@ -210,41 +210,56 @@
     </section>
 
     <!-- Skills -->
-    <section id="skills" class="section">
-      <div class="wrap">
-        <div class="section__head reveal">
-          <h2>Skills</h2>
-          <p>Organizadas por áreas para lectura rápida.</p>
-        </div>
+<section id="skills" class="section">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <h2>Skills</h2>
+      <p>Capacidades técnicas organizadas por dominio.</p>
+    </div>
 
-        <div class="skillGrid">
-          <div class="skillCard reveal">
-            <div class="skillCard__t">Sistemas & Servidores</div>
-            <div class="skillCard__b">
-              Windows (XP–11) • Windows Server (2008–2019) • Linux (Ubuntu/CentOS) • AD • DNS • DHCP • File Server
-            </div>
-          </div>
-          <div class="skillCard reveal">
-            <div class="skillCard__t">Redes & Seguridad</div>
-            <div class="skillCard__b">
-              Fortinet • VPN (OpenVPN) • Control de accesos • Monitoreo de servicios • Buenas prácticas de seguridad
-            </div>
-          </div>
-          <div class="skillCard reveal">
-            <div class="skillCard__t">Automatización & IA</div>
-            <div class="skillCard__b">
-              PowerShell • Python • Bash • n8n • Git/GitHub • IA para requerimientos y automatización de procesos
-            </div>
-          </div>
-          <div class="skillCard reveal">
-            <div class="skillCard__t">Negocio & Plataformas</div>
-            <div class="skillCard__b">
-              Microsoft 365 • Licenciamiento • Inventario TI • CRM (SuiteCRM/Bitrix24) • Telefonía IP • WhatsApp Business/META • Bots
-            </div>
-          </div>
+    <div class="skillGrid">
+      <div class="skillCard reveal">
+        <div class="skillCard__t">Sistemas & Infraestructura</div>
+        <div class="skillCard__b">
+          Administración de entornos Windows y Linux •
+          Windows Server • Active Directory •
+          Servicios de infraestructura (DNS, DHCP, File Server)
         </div>
       </div>
-    </section>
+
+      <div class="skillCard reveal">
+        <div class="skillCard__t">Redes & Seguridad</div>
+        <div class="skillCard__b">
+          Redes corporativas • Seguridad perimetral •
+          Firewalls Fortinet • VPN •
+          Control de accesos y monitoreo de servicios
+        </div>
+      </div>
+
+      <div class="skillCard reveal">
+        <div class="skillCard__t">Automatización & Desarrollo</div>
+        <div class="skillCard__b">
+          Automatización de procesos operativos •
+          PowerShell y Python •
+          Desarrollo básico en JavaScript, PHP, HTML y CSS •
+         Flujos con n8n •
+        Uso de IA como apoyo para análisis, desarrollo y mejora continua.
+        </div>
+      </div>
+
+      <div class="skillCard reveal">
+        <div class="skillCard__t">Plataformas & Negocio</div>
+        <div class="skillCard__b">
+          Microsoft 365 • Licenciamiento •
+          Gestión de activos TI •
+          CRM • Telefonía IP •
+          WhatsApp Business / Bots
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!-- Experiencia -->
     <section id="experiencia" class="section">
@@ -382,30 +397,39 @@
     </section>
 
     <!-- Stack -->
-    <section id="stack" class="section">
-      <div class="wrap">
-        <div class="section__head reveal">
-          <h2>Stack</h2>
-          <p>Herramientas y tecnologías con las que trabajo.</p>
-        </div>
+ <!-- Stack -->
+<section id="stack" class="section">
+  <div class="wrap">
+    <div class="section__head reveal">
+      <h2>Stack</h2>
+      <p>Tecnologías y herramientas utilizadas en la operación diaria.</p>
+    </div>
 
-        <div class="stackGrid">
-          <!-- Puedes reemplazar por tus íconos/imagenes -->
-          <div class="stackItem reveal"><span>Windows</span><small>Desktop/Server</small></div>
-          <div class="stackItem reveal"><span>Linux</span><small>Ubuntu/CentOS</small></div>
-          <div class="stackItem reveal"><span>AD</span><small>Users/Policies</small></div>
-          <div class="stackItem reveal"><span>Fortinet</span><small>Firewall/VPN</small></div>
-          <div class="stackItem reveal"><span>PowerShell</span><small>Automation</small></div>
-          <div class="stackItem reveal"><span>Python</span><small>Automation</small></div>
-          <div class="stackItem reveal"><span>Microsoft 365</span><small>Admin</small></div>
-          <div class="stackItem reveal"><span>Git/GitHub</span><small>Versioning</small></div>
-          <div class="stackItem reveal"><span>n8n</span><small>Workflows</small></div>
-          <div class="stackItem reveal"><span>CRM</span><small>SuiteCRM/Bitrix</small></div>
-          <div class="stackItem reveal"><span>Telefonía IP</span><small>Elastix/Asterisk</small></div>
-          <div class="stackItem reveal"><span>Meta</span><small>WhatsApp Business</small></div>
-        </div>
-      </div>
-    </section>
+    <div class="stackGrid">
+      <div class="stackItem reveal"><span>Windows</span><small>Desktop / Server</small></div>
+      <div class="stackItem reveal"><span>Linux</span><small>Ubuntu / CentOS</small></div>
+      <div class="stackItem reveal"><span>Active Directory</span><small>Usuarios / Políticas</small></div>
+      <div class="stackItem reveal"><span>Fortinet</span><small>Firewall / VPN</small></div>
+
+      <div class="stackItem reveal"><span>PowerShell</span><small>Automatización</small></div>
+      <div class="stackItem reveal"><span>Python</span><small>Automatización</small></div>
+      <div class="stackItem reveal"><span>JavaScript</span><small>Automatización / Web</small></div>
+      <div class="stackItem reveal"><span>PHP</span><small>Integraciones / Scripts</small></div>
+
+      <div class="stackItem reveal"><span>HTML / CSS</span><small>UI / Landings</small></div>
+      <div class="stackItem reveal"><span>Git / GitHub</span><small>Control de versiones</small></div>
+      <div class="stackItem reveal"><span>n8n</span><small>Workflows</small></div>
+
+      <div class="stackItem reveal"><span>Microsoft 365</span><small>Administración</small></div>
+      <div class="stackItem reveal"><span>CRM</span><small>SuiteCRM / Bitrix24</small></div>
+      <div class="stackItem reveal"><span>Telefonía IP</span><small>Elastix / Asterisk</small></div>
+      <div class="stackItem reveal"><span>Meta</span><small>WhatsApp Business</small></div>
+
+      <div class="stackItem reveal"><span>Dart</span><small>Conocimientos previos</small></div>
+      <div class="stackItem reveal"><span>IA</span><small>Apoyo a automatización</small></div>
+    </div>
+  </div>
+</section>
 
     <!-- Contacto -->
     <section id="contacto" class="section section--contact">
@@ -413,10 +437,7 @@
         <div class="contactCard reveal">
           <div>
             <h2>Contacto</h2>
-            <p class="muted">
-              ¿Buscas alguien que mantenga tu operación estable, mejore procesos y automatice tareas?
-              Conversemos.
-            </p>
+            
             <div class="contactLinks">
               <a class="cl" href="mailto:danielgz.m@hotmail.com">danielgz.m@hotmail.com</a>
               <a class="cl" href="tel:+573194724913">+57 319 472 4913</a>
@@ -457,8 +478,8 @@
   <template id="modalPitch">
     <p>
       Soy Analista de Sistemas con enfoque SysAdmin y automatización. Mantengo la operación estable
-      (infraestructura, accesos, servicios críticos) y reduzco fricción con automatización (PowerShell/Python)
-      e IA aplicada a requerimientos y mejoras. Tengo experiencia integrando canales como WhatsApp Business/META
+      (infraestructura, accesos, servicios críticos) y reduzco fricción con automatización e IA aplicada a requerimientos y mejoras. 
+      Tengo experiencia integrando canales como WhatsApp Business/META
       y agentes BOT, además de CRM/telefonía. Mi prioridad es continuidad, seguridad y mejora continua.
     </p>
   </template>
